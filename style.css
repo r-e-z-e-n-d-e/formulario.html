@@ -1,0 +1,66 @@
+body {
+    background: rgba(255, 0, 0, 0.849);
+    background-image: url("imagemfundo.png");
+}
+
+h1 {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+
+.container {
+    max-width: 500px;   
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+
+.borda {
+    border: 3px solid #ce0101;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+
+input,
+select 
+{
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+}
+
+label {
+    font-family: arial, sans-serif;
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #d81a1a;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
